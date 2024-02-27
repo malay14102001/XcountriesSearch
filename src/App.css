@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.countryCard {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.countryCard img {
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+}
+
+.countryCard p {
+  margin-top: 10px;
+  font-weight: bold;
+}
